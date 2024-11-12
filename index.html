@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Exercice 2 : Bloc-notes persistant (Local Storage + Regex)
+Crée une application de bloc-notes où l'utilisateur peut écrire et sauvegarder des notes.
+ Chaque note doit être filtrée pour éviter les caractères spéciaux.
+Formulaire pour ajouter une note : limite la note aux caractères
+ alphanumériques uniquement (utilise une regex).
+Stocker les notes dans le Local Storage.
+Afficher les notes sauvegardées même après rechargement.
+ -->
+<h1>Bloc-notes Persistant</h1>
+    <form action="" id="form">
+        <div class="mb-3">
+            <label for="note" class="form-label">Ajouter une note</label>
+            <input type="text" class="form-control" id="note" placeholder="Ajouter une note">
+        </div>
+        <button type="submit" class="btn btn-primary">Ajouter</button>
+    </form>
+    <div id="notes"></div>
+    <!-- script js -->
+    <script src="note.js"></script>
+</body>
+</html>
